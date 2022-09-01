@@ -17,6 +17,7 @@
 
     
          A JComboBox is a java swing component that provides a drop down menu 
-    of items. The object of Choice class is used to show popup menu of choices. Choice selected by user is shown on the top of a menu. It inherits 
+    of items. The object of Choice class is used to show popup menu of choices. 
+    Choice selected by user is shown on the top of a menu. It inherits 
     JComponent class.
     
