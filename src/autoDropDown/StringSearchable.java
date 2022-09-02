@@ -14,7 +14,6 @@ public class StringSearchable implements Searchable<String,String> {
 
     @Override
     public Collection<String> search(String value) {
-        // TODO Auto-generated method stub
         List<String> founds = new ArrayList<String>();
 
         for(String s : terms) {

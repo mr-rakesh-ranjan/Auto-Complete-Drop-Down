@@ -36,21 +36,18 @@ public class AutocompleteJComboBox extends JComboBox{
 
                 @Override
                 public void removeUpdate(DocumentEvent e) {
-                    // TODO Auto-generated method stub
                     update();
 
                 }
 
                 @Override
                 public void insertUpdate(DocumentEvent e) {
-                    // TODO Auto-generated method stub
                     update();
 
                 }
 
                 @Override
                 public void changedUpdate(DocumentEvent e) {
-                    // TODO Auto-generated method stub
 
                 }
 
@@ -60,7 +57,6 @@ public class AutocompleteJComboBox extends JComboBox{
                         @SuppressWarnings("unchecked")
                         @Override
                         public void run() {
-                            // TODO Auto-generated method stub
                             List<String> founds = new ArrayList<String>(searchable.search(tc.getText()));
                             Set<String> foundSet = new HashSet<String>();
                             for(String s : founds) {
@@ -88,7 +84,6 @@ public class AutocompleteJComboBox extends JComboBox{
 
                 @Override
                 public void focusLost(FocusEvent e) {
-                    // TODO Auto-generated method stub
                     if(tc.getText().length() > 0) {
                         setPopupVisible(true);
                     }
@@ -97,7 +92,6 @@ public class AutocompleteJComboBox extends JComboBox{
 
                 @Override
                 public void focusGained(FocusEvent e) {
-                    // TODO Auto-generated method stub
 
                 }
             });

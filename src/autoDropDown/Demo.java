@@ -9,12 +9,10 @@ import javax.swing.SwingUtilities;
 public class Demo {
 
     public static void main(String[] args) throws Exception {
-        // TODO Auto-generated method stub
         SwingUtilities.invokeAndWait(new Runnable() {
 
             @Override
             public void run() {
-                // TODO Auto-generated method stub
                 List<String> country = new ArrayList<>();
                 country.add("India");
                 country.add("Indonesia");
